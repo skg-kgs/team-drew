@@ -1,0 +1,9 @@
+title: read these first
+pid: a87a2014-1ed3-4e44-8264-4aff9cddcd0f
+body: |2-
+  'server/refresh/mod.rs:refresh_viewforest'
+  'server/refresh/visit.rs:visit_parent'
+  'server/update_buffer.rs:render_initial_view'
+  'server/rerender_pass.rs:update_views_after_save'
+  'server/org_to_text.rs:viewforest_to_string'
+  'server/view_text_delta.rs:changed_headlines'

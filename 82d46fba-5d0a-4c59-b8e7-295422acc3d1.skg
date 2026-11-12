@@ -1,0 +1,4 @@
+title: The server sends herald facts, not their look.
+pid: 82d46fba-5d0a-4c59-b8e7-295422acc3d1
+body: |2-
+  Letters and colours are drawn by the clients from 'shared/herald-styles.json'.

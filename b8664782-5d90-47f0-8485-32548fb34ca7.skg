@@ -1,0 +1,17 @@
+title: my territory, and where to start reading
+pid: b8664782-5d90-47f0-8485-32548fb34ca7
+body: |2-
+  True as of commit 4c475f48 of the code repo, '/home/ubuntu/host'. 'git log 4c475f48..HEAD -- PATH' shows what may have changed since.
+  Every buffer the server sends is drawn by one operation, the refresh
+  ('refresh_viewforest'): it corrects a parsed buffer against the graph in
+  place and reports nothing, and its caller renders the result as text. A fresh
+  view, each rerender after a save or request, search results and the diff
+  view's buffers are all refreshes. 'server/to_org/' holds no code, only an editor backup.
+contains:
+- df60c797-bd12-4bac-a137-e15a4fbb5e90
+- a87a2014-1ed3-4e44-8264-4aff9cddcd0f
+- b097fec4-6e5a-4e12-b41f-20887995bbe4
+- 4686b90c-366e-419e-9238-4c46e1f9501b
+- 0e406087-ff1f-49d0-93f8-234bb62ebe6c
+- 82d46fba-5d0a-4c59-b8e7-295422acc3d1
+- bf32f746-d4dc-4927-8365-e081ed8254e3

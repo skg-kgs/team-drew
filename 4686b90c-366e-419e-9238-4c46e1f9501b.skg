@@ -1,0 +1,6 @@
+title: docs
+pid: 4686b90c-366e-419e-9238-4c46e1f9501b
+body: |2-
+  'docs/data-model_technical.org', "The refresh: how a view follows the graph".
+  'docs/heralds.org'. 'docs/api-and-formats.org': "The redraw delta", "Herald rules",
+  "Rerender views", "Content view". 'coding-advice/architecture.md' (the kinds of viewnode).
