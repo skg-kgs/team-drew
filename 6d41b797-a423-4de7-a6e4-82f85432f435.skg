@@ -1,9 +1,0 @@
-title: 'What is built, in four commits on main: c11b34d9, 5bbfef63, ecf81f8f, ab881969.'
-pid: 6d41b797-a423-4de7-a6e4-82f85432f435
-body: |2-
-  A containers folder lists no view-ancestor of its node, and is not drawn when
-  none is left; one already drawn loses them at the next refresh. In the diff
-  view a containers folder is drawn only when a container not above the node
-  gained or lost it. The labels read "These also contain it." and "its other
-  containers changed (other files)". A save whose containers request draws no
-  folder warns "No other containers.", naming the headline.

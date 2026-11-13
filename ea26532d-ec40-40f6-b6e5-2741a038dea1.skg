@@ -8,3 +8,6 @@ body: |2-
   tell a folder pruned from one never drawn, both clients and the AI reader would
   each have to guess, and the warnings already reach all three. Decided
   2026-11-13, answering Libby's question on Vic's plan.
+  A limit left unbuilt: when a save's rerender is withheld under a skgrepo
+  restriction, the warning is not given, and the later "rerender views"
+  request draws no folder and says nothing. Judged rare enough to leave.
