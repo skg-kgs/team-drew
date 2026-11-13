@@ -1,0 +1,9 @@
+title: 'Decided: only the containers folder leaves out view-ancestors; Tay''s generalization is refused.'
+pid: 8e75e7a1-edc3-4f00-a677-41f966a76e53
+body: |2-
+  Tay asked whether all "These ... it" folders should. They find their members
+  in one place, but only containment is shown by where a headline stands: a
+  view-ancestor that subscribes to, hides, overrides or links to the node shows
+  no such thing by standing above it. So the plan's "the rule extends to them
+  later" should go: nothing is deferred. One predicate,
+  'Folder::omits_view_ancestors', would extend it if Jeff wants it after all.

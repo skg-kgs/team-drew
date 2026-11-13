@@ -1,0 +1,13 @@
+title: 'The check passed: every suite, run after the last code commit.'
+pid: 0310ee32-2821-447f-8935-59329e7b2b8f
+body: |2-
+  'bash/nextest.sh --no-fail-fast': "1174 tests run: 1174 passed, 0 skipped".
+  'bash/emacs-tests.sh': "Ran 472 tests, 472 results as expected, 0 unexpected".
+  'bash/nvim-tests.sh': "All tests passed!". 'python3 tools/skg-for-ai/test_skg_for_ai.py':
+  "PASS". 'bash/integration-tests.sh': "All tests PASSED!" (36 tests). Before any
+  change all five passed too, so no failure was pre-existing. Jeff's example is
+  'a_containers_folder_lists_no_view_ancestor' in 'tests/refresh/requests.rs';
+  the diff view's is 'a_change_whose_only_changed_container_stands_above_it_has_no_container_folder'
+  in 'tests/pruned_change_view/buffer.rs'. A scratch server on port 1799 showed
+  both over TCP. A fresh subagent compared the commits with part 1 and found no
+  departure; it found one weakened test, which ab881969 restored.

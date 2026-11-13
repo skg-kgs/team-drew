@@ -1,0 +1,10 @@
+title: Only the containers folder leaves out view-ancestors, because only containment is shown by where a headline stands.
+pid: bf2e1fb5-351b-436a-aadb-36027d2a7cb3
+body: |2-
+  A view-ancestor that subscribes to, hides, overrides or links to a node is not
+  seen doing so by standing above it, so those folders keep it: leaving it out
+  would hide a fact. The rule is one predicate, 'Folder::omits_view_ancestors';
+  a kind added there gets the goal filter, the removal of an ancestor already
+  drawn, and the diff view's test of a changed folder, all at once. Walking the
+  ancestors costs the headline's depth, once per containers folder per refresh,
+  and once per changed node in the diff view.

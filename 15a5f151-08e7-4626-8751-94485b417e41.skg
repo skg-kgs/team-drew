@@ -1,0 +1,7 @@
+title: 'Vic''s question: yes to both.'
+pid: 15a5f151-08e7-4626-8751-94485b417e41
+body: |2-
+  The removal is a rule beside the hides folder's, generalized rather than
+  duplicated ('leaves_its_write_protected_folder' in 'server/refresh/visit.rs').
+  Walking the ancestors costs the headline's depth, once per containers folder
+  per refresh and once per changed node in the diff view.

@@ -1,0 +1,9 @@
+title: Unsure, and surprising.
+pid: c9accb4b-91bf-4ead-8a5a-9174a6d4e380
+body: |2-
+  Eleven diff-view tests lost the folder they tested, since their node's only
+  changed container was its parent: Jeff's "most of which have such single
+  redundant children" holds of the test fixtures too. Four fixtures gained a
+  second container to keep testing a folder. The warning is not given when a
+  save's rerender is withheld under a skgrepo restriction; the later "rerender
+  views" draws nothing and says nothing. I judged that rare enough to leave.

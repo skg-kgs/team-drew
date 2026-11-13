@@ -11,3 +11,7 @@ body: |2-
   '--test grouped_overrides' ('what_the_refresh_keeps.rs', 'view_stats_sharing.rs');
   '--test grouped_repos' ('redraw_delta.rs', 'viewnode_id_stability.rs'). Run from the
   repo root; fixtures are copied to /tmp and no server starts. [[id:302fa5ad-d404-4bc2-861a-65742cb4aa1e][Tess]] (the tests) owns the harness.
+  The other suites are safe beside the running servers too: 'bash/emacs-tests.sh'
+  and 'bash/nvim-tests.sh' start none, and 'bash/integration-tests.sh' and the AI
+  reader's 'python3 tools/skg-for-ai/test_skg_for_ai.py' run 'target/debug/skg' on
+  ports of their own, so 'cargo build' first. The team's servers run 'target/release/skg'.

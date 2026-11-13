@@ -1,0 +1,8 @@
+title: 'Decided: the server, not the client, says "No other containers.", as a save-result warning.'
+pid: 427e06be-b8a2-432c-8093-08c8c355e3bc
+body: |2-
+  Libby's question. Every client already shows those warnings, so Elle need build
+  nothing; she may choose to show this one in the echo area rather than the
+  warnings buffer, by its text. Why, in my note "The refresh reports nothing, so
+  what a request drew is judged around it, in the rerender pass." It also fires
+  for a node nothing contains at all, which is as true.
