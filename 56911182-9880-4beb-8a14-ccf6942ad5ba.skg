@@ -1,7 +1,0 @@
-title: A test of a containers folder needs a container that is not above the node.
-pid: 56911182-9880-4beb-8a14-ccf6942ad5ba
-body: |2-
-  A node whose only container is its view-parent gets no containers folder, and
-  in the diff view a node whose only changed container stands above it gets none.
-  A fixture that means to show such a folder must give the node a second
-  container, outside its ancestry.

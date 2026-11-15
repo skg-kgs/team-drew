@@ -1,6 +1,0 @@
-title: The redraw delta's stripped form is one rule in three places.
-pid: 0e406087-ff1f-49d0-93f8-234bb62ebe6c
-body: |2-
-  The server and both clients compare texts without the fold and focus atoms, and all
-  three test against 'tests/shared/fold-and-focus-atom-strip-cases.txt'. Change it in all
-  three or none. No delta means the client redraws the whole buffer.

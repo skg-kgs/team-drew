@@ -1,5 +1,0 @@
-title: A rerender assumes the graph was already swapped in.
-pid: bf32f746-d4dc-4927-8365-e081ed8254e3
-body: |2-
-  Under a skgrepo restriction, a save's rerender that would show overPrivateText is
-  withheld ('withhold_save_rerender'): only a later "rerender views" request carries that approval.
